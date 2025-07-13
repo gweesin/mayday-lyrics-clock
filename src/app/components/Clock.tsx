@@ -44,7 +44,7 @@ const Clock: React.FC = () => {
     if (currentSong !== musicIndex) {
       setCurrentSong(musicIndex);
     }
-  }, [now]);
+  }, [now, currentSong]);
 
   useEffect(() => {
     if(audioRef.current) {

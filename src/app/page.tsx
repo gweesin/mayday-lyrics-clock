@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Clock from "./components/Clock";
 // Placeholder imports for theme and language switchers
 // import ThemeToggle from "./components/ThemeToggle";
